@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title>Desafio Ninja</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		  body {
+		  	background-color:fff;
+		    padding: 0px;
+		    margin: 0px;
+		  }
+		  </style>
+	</head>
+
+	<body> 
+    
+         <!-- *.. LOGUIN ..* -->
+   <center> <div id="loguin">
+<div id="content" class="content">
+<form  id="formulario">
+<center><h2>INICIAR SESIÓN</h2></center>
+<div class="contenedor-inputs1">
+<input type="text" placeholder="Usuario:" class="user-black" id="nombredeusuario" name="nombredeusuario" data-theme="c required">
+<input type="password" class="lock-black" placeholder="Contraseña" id="clave" name="clave" data-theme="c" required>
+</br><input type="submit" id="botonLogin" value="Iniciar Sesion">
+</div>
+</form>
+<div id="datos_inc" class="datos_inc" style="color:#000000; padding-top: 1em"></div>
+			<p>¿No tienés una cuenta? <a href="#">Registrate</a></p>
+            
+            </div>
+
+		</div></center>
+        
+          
+		<script type="text/javascript" src="js/phaser.js"></script>
+		<script type="text/javascript" src="js/states/Boot.js"></script>
+		<script type="text/javascript" src="js/states/Preload.js"></script>
+		<script type="text/javascript" src="js/states/Game.js"></script>
+		<script type="text/javascript" src="js/prefabs/Enemy.js"></script>
+        <script type="text/javascript" src="js/states/MainMenu.js"></script>
+		<script src="js/scaler.js"></script>
+		<script src="js/main.js"></script>
+        <script src="js/sesion.js"></script>
+
+        	
+        
+      <!--  <script type="text/javascript">
+			var audio = new Audio('assets/music.mp3');
+			audio.play();
+	
+			audio.addEventListener("ended", function(){
+			audio.currentTime = 0;
+			//audio.play();	
+			//audio.stop();	
+			});
+		</script>-->
+        
+        					
+                                        				
+									
+					
+                                        
+	</body>
+</html>
